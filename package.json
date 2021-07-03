@@ -4,6 +4,7 @@
   "description": "hello to node",
   "main": "index.js",
   "scripts": {
+    "sandeep": "npx nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sandeep",
@@ -12,6 +13,6 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.9"
   }
 }
